@@ -22,7 +22,8 @@ services:
     #
     # You can define additional environment variables as needed.
     envVars:
-      N8N_RUNNERS_ENABLED=true
+      N8N_RUNNERS_ENABLED = true
+      NODE_VERSION = 22.16.0
       # Generates a base64-encoded key for
       # encrypting credentials in n8n
       #
